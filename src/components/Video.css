@@ -1,0 +1,51 @@
+#video {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-text {
+  color: #fff;
+  text-align: center;
+}
+.home-text h1 {
+  font-size: 4rem;
+}
+.home-text p {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+  font-weight: 200;
+}
+.home-text-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.home-text-btn .btn {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.home-text-btn .btn:hover {
+  background: rgba(45, 45, 45, 0.8);
+}
+@media (max-width: 640px) {
+  .home-text h1 {
+    font-size: 3rem;
+  }
+  .home-text p {
+    font-size: 1.2rem;
+  }
+}

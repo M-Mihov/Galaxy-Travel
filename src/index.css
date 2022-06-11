@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #171717;
+}
+
+.glx-content {
+  padding: 6rem 4rem;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+.btn {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.6em 1.7em;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 0 0.2rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+p,
+h1,
+h2,
+h3,
+a,
+ul,
+li,
+h4,
+span {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 680px) {
+  .glx-content {
+    padding: 4rem 2.5rem;
+  }
+}
