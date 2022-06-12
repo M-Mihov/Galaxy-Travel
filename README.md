@@ -1,1 +1,1 @@
-Multi page website made with React
+Responsive multi page website made with React
